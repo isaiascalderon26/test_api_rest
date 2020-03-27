@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc95d4e4-004f-49ce-aca9-d329d8b9b56d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1XTOspnSB8GPjOezTVs4toveKKT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ApirestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apirest.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.apirest.proyecto.ApirestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc95d4e4-004f-49ce-aca9-d329d8b9b56d" name="Default Changelist" comment="" />
+      <created>1581066827184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581066827184</updated>
+      <workItem from="1581066830805" duration="2348000" />
+      <workItem from="1581495040561" duration="865000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581495051525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-141.1920.1040@0.0.1536.824" timestamp="1581495051525" />
+    <state x="-1578" y="6" key="new project wizard" timestamp="1581495903670">
+      <screen x="-1920" y="-141" width="1920" height="1040" />
+    </state>
+    <state x="-1578" y="6" key="new project wizard/0.0.1536.824/-1920.-141.1920.1040@-1920.-141.1920.1040" timestamp="1581495903670" />
+  </component>
+</project>
