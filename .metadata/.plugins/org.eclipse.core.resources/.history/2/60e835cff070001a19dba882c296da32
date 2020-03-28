@@ -1,0 +1,10 @@
+spring.application.name=microservicio-zuul
+server.port=8090
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+zuul.routes.usuarios.service-id=microservicios-usuarios
+zuul.routes.usuarios.path=/api/alumnos/**
+
+zuul.routes.curse.service-id=microservicios-curses
+zuul.routes.curse.path=/api/curse/**

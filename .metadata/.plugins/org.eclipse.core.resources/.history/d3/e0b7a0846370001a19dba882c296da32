@@ -1,0 +1,10 @@
+package com.apialumnos.microservicios.app.curse.services;
+
+import com.apialumnos.microservicios.app.curse.models.entity.Curse;
+import com.apialumnos.microservicios.app.curse.models.repository.CurseRepository;
+import com.apialumnos.microservicios.commons.services.CommonServiceImpl;
+
+public class CurseServiceImpl extends CommonServiceImpl<Curse, CurseRepository> implements CurseService {
+
+	
+}

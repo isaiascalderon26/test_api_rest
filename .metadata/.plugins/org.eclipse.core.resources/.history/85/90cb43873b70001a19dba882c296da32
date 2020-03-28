@@ -1,0 +1,43 @@
+package com.apialumnos.microservicios.commons.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+
+
+@Service
+public class AlumnoServiceImpl<E, R extend CrudRepository<E,long>> implements AlumnoService<E> {
+
+	@Autowired
+	private R repository;
+	
+	@Override
+	@Transactional(readOnly = true)
+	public Iterable<Alumno> findAll() {
+		
+		return repository.findAll();
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Optional<Alumno> findById(Long id) {
+		
+		return repository.findById(id);
+	}
+
+	@Override
+	public Alumno save(Alumno alumno) {
+		
+		return repository.save(alumno);
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		
+		repository.deleteById(id);
+	}
+
+}

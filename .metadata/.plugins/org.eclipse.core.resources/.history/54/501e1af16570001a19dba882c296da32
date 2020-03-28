@@ -1,0 +1,9 @@
+package com.apialumnos.microservicios.app.curse.models.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.apialumnos.microservicios.app.curse.models.entity.Curse;
+
+public interface CurseRepository extends CrudRepository<Curse, Long> {
+
+}

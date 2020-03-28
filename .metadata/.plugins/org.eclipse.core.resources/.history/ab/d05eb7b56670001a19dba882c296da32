@@ -1,0 +1,28 @@
+package com.apialumnos.microservicios.app.curse.controllers;
+
+import java.util.Optional;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.apialumnos.microservicios.app.curse.models.entity.Curse;
+import com.apialumnos.microservicios.app.curse.services.CurseService;
+import com.apialumnos.microservicios.commons.controller.CommonController;
+
+@RestController
+public class CurseController extends CommonController<Curse, CurseService>{
+	
+	@PutMapping("/{id}")
+	public ResponseEntity<?> editar(@RequestBody Curse curse, @PathVariable Long id){
+		Optional<Curse> o = this.service.findById(id)
+		if(!o.isPresent())
+			return ResponseEntity.notFound().build();
+	}
+	Curse dbCurse = o.get();
+	dbCurse
+	
+
+}

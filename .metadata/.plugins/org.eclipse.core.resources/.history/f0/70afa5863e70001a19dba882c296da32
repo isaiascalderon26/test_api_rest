@@ -1,0 +1,10 @@
+package com.apialumnos.microservicios.app.usuarios.services;
+
+import java.util.Optional;
+
+import com.apialumnos.microservicios.app.usuarios.models.entity.Alumno;
+
+public interface AlumnoService {
+	
+
+}

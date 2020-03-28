@@ -1,0 +1,5 @@
+package com.apialumnos.microservicios.app.curse.models.entity;
+
+public class Curse {
+
+}

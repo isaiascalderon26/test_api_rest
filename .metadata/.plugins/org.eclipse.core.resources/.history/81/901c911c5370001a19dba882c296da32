@@ -1,0 +1,28 @@
+package com.apialumnos.microservicios.app.curse.models.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name="curses")
+public class Curse {
+	
+	@Id
+	@GeneratedValue
+	private Long id;
+	
+	private String name;
+	
+	
+	@Column(name="create_at")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date createAt;
+
+}

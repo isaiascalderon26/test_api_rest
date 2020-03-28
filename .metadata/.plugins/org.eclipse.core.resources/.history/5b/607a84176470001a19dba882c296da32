@@ -1,0 +1,13 @@
+package com.apialumnos.microservicios.app.curse.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.apialumnos.microservicios.app.curse.models.entity.Curse;
+import com.apialumnos.microservicios.app.curse.models.repository.CurseRepository;
+import com.apialumnos.microservicios.app.curse.services.CurseService;
+import com.apialumnos.microservicios.commons.services.CommonServiceImpl;
+
+@RestController
+public class CurseController extends CommonServiceImpl<Curse, CurseRepository> implements CurseService{
+
+}
